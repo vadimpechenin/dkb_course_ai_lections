@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from linear_regression_algorithm import linear_regression
+from L10.linear_regression_algorithm import linear_regression
 
 def predict(x, w, b):
     return w * x + b
